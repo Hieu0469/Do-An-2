@@ -7,6 +7,4 @@ Các mô hình được so sánh bao gồm:
 - ResNet50m FPN
 - eWaSR ResNet18 imu
 
-
-| Căn trái | Căn giữa | Căn phải |
-| :--- | :----: | ---: |
+[Kết quả](file:///E:/work/DL/Models/Untitled.png)
