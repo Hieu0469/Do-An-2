@@ -7,7 +7,7 @@
 | | Accuracy | Dice | IoU | Size | CPU run time | |
 |:--- | :--- | :--- | :--- | :--- | :--- | :---|
 |Original | 84.3% | 44.77% | 35.13% | 130.46MB | 2.53s |   
-|Pruned  | 86.34% | 45.14% | 35.71% | 26.08MB| 0.97s |
+|Pruned  | 86.34% | 45.14% | 35.71% | 26.08MB| 0.97s | [Download](https://drive.google.com/file/d/16IMlZtAX3xz2Yd23o5E1bGrHmcp39MpY/view?usp=sharing)|
 |Quantized   | 86.1% | 45.03% | 35.48% | 6.48MB | 0.07s | [Download](https://drive.google.com/file/d/1DCLJxZkapAVgIEXKuIuvN9goLsFuHws4/view?usp=sharing)|
 
 
