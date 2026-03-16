@@ -8,4 +8,4 @@ Các mô hình được so sánh bao gồm:
 - eWaSR ResNet18 imu
 
 | Căn trái | Căn giữa | Căn phải |
-
+| :--- | :----: | ---: |
