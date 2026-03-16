@@ -1,6 +1,10 @@
 # Do An 2
 ## Models Comparison
-So sánh các mô hình khác nhau sau khi đã prune và quantize dựa trên dataset [Cityscapes](https://www.kaggle.com/datasets/electraawais/cityscape-dataset).
+So sánh các mô hình khác nhau sau khi đã prune và quantize
+
+Dữ liệu đánh giá: Dataset [Cityscapes](https://www.kaggle.com/datasets/electraawais/cityscape-dataset).
+
+Số lượng ảnh để đánh giá: 500
 
 Các mô hình được so sánh bao gồm:
 - ResNet50 UNet
@@ -11,5 +15,4 @@ Các mô hình được so sánh bao gồm:
 
 Các thông tin khác:
 - Kích thước ảnh đầu vào: 256 x 256
-- Số lượng ảnh trong tập test: 500
 - CPU: AMD Ryzen 5 5500U (2.1GHz)
