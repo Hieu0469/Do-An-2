@@ -8,3 +8,8 @@ Các mô hình được so sánh bao gồm:
 - eWaSR ResNet18 imu
 
 ![Kết quả](https://github.com/user-attachments/assets/841f0c3c-8a69-47fc-b2c2-db54eed6122f)
+
+Các thông tin khác:
+- Kích thước ảnh đầu vào: 256 x 256
+- Số lượng ảnh trong tập test: 500
+- CPU: AMD Ryzen 5 5500U (2.1GHz)
