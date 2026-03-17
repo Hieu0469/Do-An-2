@@ -23,6 +23,7 @@ Các thông tin khác:
 1. Load model đã train
 ```python
 import torch
+import torch.nn as nn
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model = torch.load(base_model_load_path,map_location=torch.device(device),weights_only=False)
 print("Model loaded successfully")
