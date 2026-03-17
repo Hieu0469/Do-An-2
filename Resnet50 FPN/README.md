@@ -11,8 +11,8 @@
 |Quantized   | 80.72% | 32.03% | 25.07% | 5.92 MB | 0.06s | [Download](https://drive.google.com/file/d/1lH5PuU0-fTIgYYjBRRFlfrbH4tDrknDv/view?usp=sharing)|
 
 
-<img width="614" height="220" alt="image" src="https://github.com/user-attachments/assets/caca56c8-e819-4e6a-890e-46b19928d835" />
+<img width="967" height="310" alt="image" src="https://github.com/user-attachments/assets/dbd8d17b-5481-46fd-850e-846144fd126a" />
 
-<img width="615" height="224" alt="image" src="https://github.com/user-attachments/assets/9c70b606-a7d4-41ed-a3a2-d5236ed81af8" />
+<img width="970" height="315" alt="image" src="https://github.com/user-attachments/assets/1d88865f-305b-4af8-92b9-730a38e84434" />
 
 
