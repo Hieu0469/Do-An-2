@@ -1,6 +1,6 @@
 # Do An 2
-## Models Comparison
-So sánh các mô hình khác nhau sau khi đã prune và quantize
+## Models Comparison on Cityscapes Dataset
+**So sánh và đánh giá các mô hình khác nhau sau khi đã prune và quantize**
 
 Dữ liệu đánh giá: Dataset [Cityscapes](https://www.kaggle.com/datasets/electraawais/cityscape-dataset).
 
@@ -101,4 +101,23 @@ quantize_static(
     dr,
     quant_format=QuantType.QInt8 # Hoặc QUInt8 tùy vào phần cứng
 )
+```
+4. Load model đã lượng tử hóa
+```python
+import onnxruntime as ort
+#Load model
+session = ort.InferenceSession("{}_quantized_final.onnx".format(model_name), providers=['CPUExecutionProvider'])
+
+input_name = session.get_inputs()[0].name
+output_name = session.get_outputs()[0].name
+
+print(f"Input name: {input_name}")
+print(f"Output name: {output_name}")
+
+#Example
+x,y = dataset[0] # Shape: 3, H, W 
+input_data = x.unsqueeze(dim=0).numpy() #Shape: 1, 3, H, W
+
+outputs = session.run([output_name], {input_name: input_data})
+print("Success")
 ```
