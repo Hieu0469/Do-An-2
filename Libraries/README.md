@@ -25,16 +25,13 @@ print(f"Output name: {output_name}")
 
 #Example
 
-outputs = session.run([output_name], {input_name: x})
-print("Success")
 ```
 
 
 
 5. Predict
 ```python
-input_data = x.unsqueeze(0).cpu().numpy()  # Add batch dimension and convert to numpy
-outputs = session.run([output_name], {input_name: input_data})
+outputs = session.run([output_name], {input_name: x.cpu().numpy()})
 ```
 
 5. Show ảnh đã predict
