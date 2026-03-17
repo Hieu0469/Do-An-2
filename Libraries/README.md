@@ -1,5 +1,7 @@
 # Thư viện test model
-Tổng hợp các function dùng để test model bao gồm  
+Tổng hợp các function dùng để test model
+
+Example:
 1. Khai báo đường dẫn đến ảnh
 ```python
 img_path = "Path/to/image"
@@ -20,8 +22,8 @@ session = ort.InferenceSession("{}_quantized_final.onnx".format(model_name), pro
 input_name = session.get_inputs()[0].name
 output_name = session.get_outputs()[0].name
 
-print(f"Input name: {input_name}")
-print(f"Output name: {output_name}")
+print(f {output_"Input name: {input_name}")
+print(f"Output name:name}")
 
 #Example
 
