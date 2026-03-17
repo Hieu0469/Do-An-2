@@ -11,7 +11,8 @@ Các mô hình được so sánh bao gồm:
 - ResNet50m FPN
 - eWaSR ResNet18 imu
 
-![Kết quả](https://github.com/user-attachments/assets/841f0c3c-8a69-47fc-b2c2-db54eed6122f)
+## Kết quả
+<img width="1516" height="222" alt="image" src="https://github.com/user-attachments/assets/30f5fa1b-ae0c-47de-90a2-44b760389560" />
 
 Các thông tin khác:
 - Kích thước ảnh đầu vào: 256 x 256
