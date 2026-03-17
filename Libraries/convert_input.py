@@ -38,14 +38,14 @@ def ConvertInputPath(input_image):
     # Output: normalized_image is a tensor of shape (3, H, W) normalized
     tensor_image = load_image_as_tensor(input_image)
     normalized_image = Normalize(tensor_image)
-    return normalized_image
+    return normalized_image.unsqueeze(0)  # Add batch dimension
 
 def ConvertInputTensor(input_image_tensor):
     # Convert the input image tensor to a normalized tensor
     # Input: input_image_tensor is a tensor of shape (3, H, W)
     # Output: normalized_image is a tensor of shape (3, H, W) normalized
     normalized_image = Normalize(input_image_tensor)
-    return normalized_image
+    return normalized_image.unsqueeze(0)  # Add batch dimension
 
 def ConvertInput(input_image):
     # Convert the input image (file path or tensor) to a normalized tensor
