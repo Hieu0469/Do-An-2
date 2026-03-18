@@ -30,9 +30,6 @@ output_name = session.get_outputs()[0].name
 
 print(f {output_"Input name: {input_name}")
 print(f"Output name:name}")
-
-#Example
-
 ```
 
 
