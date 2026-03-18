@@ -26,7 +26,7 @@ x = ConvertInput(img_path) # (3, H, W) -> (1, 3, H, W) normalized
 ```python
 import onnxruntime as ort
 #Load model
-session = ort.InferenceSession("{}_quantized_final.onnx".format(model_name), providers=['CPUExecutionProvider'])
+session = ort.InferenceSession("Path/to/onnx/file", providers=['CPUExecutionProvider'])
 
 input_name = session.get_inputs()[0].name
 output_name = session.get_outputs()[0].name
