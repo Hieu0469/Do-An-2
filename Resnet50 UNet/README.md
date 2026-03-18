@@ -1,6 +1,6 @@
 # ResNet50 UNet
 
-[Kaggle Notebook](https://www.kaggle.com/code/hieu0469/pruned-quantized-resnet50-unet-cityscapes-2/notebook)
+Vào [Kaggle Notebook](https://www.kaggle.com/code/hieu0469/pruned-quantized-resnet50-unet-cityscapes-2/notebook) để xem chi tiết hơn.
 
 ## Kết quả test sau prune 75% và quantize về int8:
 
