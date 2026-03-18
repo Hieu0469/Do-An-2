@@ -1,6 +1,6 @@
 # eWaSR ResNet18 imu
 
-[Colab Notebook](https://colab.research.google.com/drive/1rI2kuru3nSMKPrwfMHx8rOy4qIXHOB07#scrollTo=jMIEzuu2hTbn)
+Vào [Colab Notebook](https://colab.research.google.com/drive/1rI2kuru3nSMKPrwfMHx8rOy4qIXHOB07#scrollTo=jMIEzuu2hTbn) để xem chi tiết hơn.
 
 ## Kết quả test sau prune 50% và quantize về int8:
 
