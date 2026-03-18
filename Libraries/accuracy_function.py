@@ -16,7 +16,7 @@ def accuracy_function(pred, target):
     accuracy = correct / total if total > 0 else 0.0
     return accuracy
 
-def iou_function(pred, target, num_classes):
+def iou_function(pred, target, num_classes=34):
     # pred: (H, W) - predicted class indices
     # target: (H, W) - ground truth class indices
     # num_classes: total number of classes in the segmentation task
@@ -34,7 +34,7 @@ def iou_function(pred, target, num_classes):
         ious.append(iou)
     return sum(ious) / len(ious) if ious else 0.0
 
-def f1_score_function(pred, target, num_classes):
+def f1_score_function(pred, target, num_classes=34):
     # pred: (H, W) - predicted class indices
     # target: (H, W) - ground truth class indices
     # num_classes: total number of classes in the segmentation task
@@ -55,7 +55,7 @@ def f1_score_function(pred, target, num_classes):
         f1_scores.append(f1_score)
     return sum(f1_scores) / len(f1_scores) if f1_scores else 0.0
 
-def dice_coefficient_function(pred, target, num_classes):
+def dice_coefficient_function(pred, target, num_classes=34):
     # pred: (H, W) - predicted class indices
     # target: (H, W) - ground truth class indices
     # num_classes: total number of classes in the segmentation task
