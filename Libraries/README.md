@@ -1,6 +1,12 @@
 # Thư viện test model
 Tổng hợp các function dùng để test model
 
+Cài đặt các thư viện cần thiết:
+```bash
+!pip install segmentation-models-pytorch
+!git clone https://github.com/Hieu0469/eWaSR2
+!git clone https://github.com/Hieu0469/MyTorchPruning.git
+```
 Example:
 1. Khai báo đường dẫn đến ảnh
 ```python
