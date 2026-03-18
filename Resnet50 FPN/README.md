@@ -1,6 +1,6 @@
 # ResNet50 FPN
 
-[Kaggle Notebook](https://www.kaggle.com/code/hillsp/pruned-quantized-resnet50-fpn-cityscapes?scriptVersionId=304276875)
+Vào [Kaggle Notebook](https://www.kaggle.com/code/hillsp/pruned-quantized-resnet50-fpn-cityscapes?scriptVersionId=304276875) để xem chi tiết hơn.
 
 ## Kết quả test sau prune 75% và quantize về int8:
 
