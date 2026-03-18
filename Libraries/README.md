@@ -49,3 +49,8 @@ plt.imshow(predicted_mask)
 plt.title("Predicted Mask")
 plt.show()
 ```
+
+6. Kiểm tra độ chính xác
+```python
+from accuracy_function import accuracy_function, iou_function, f1_score_function, dice_coefficient_function
+```
