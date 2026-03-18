@@ -53,4 +53,12 @@ plt.show()
 6. Kiểm tra độ chính xác
 ```python
 from accuracy_function import accuracy_function, iou_function, f1_score_function, dice_coefficient_function
+
+preds = outputs[0]  # Shape: (1, C, H, W)
+output_idx = np.argmax(preds, axis=1).squeeze()  # Shape: (H, W)
+mask_idx = y.numpy().squeeze()  # Shape: (H, W)
+print("Accuracy:", accuracy_function(torch.from_numpy(output_idx), torch.from_numpy(mask_idx)))
+print("IoU:", iou_function(torch.from_numpy(output_idx), torch.from_numpy(mask_idx), num_classes=34))
+print("F1 Score:", f1_score_function(torch.from_numpy(output_idx), torch.from_numpy(mask_idx), num_classes=34))
+print("Dice Coefficient:", dice_coefficient_function(torch.from_numpy(output_idx), torch.from_numpy(mask_idx), num_classes=34))
 ```
