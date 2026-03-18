@@ -44,6 +44,8 @@ outputs = session.run([output_name], {input_name: x.cpu().numpy()})
 
 5. Show ảnh đã predict
 ```python
+from convert_output import ConvertOutput
+
 predicted_mask = ConvertOutput(torch.from_numpy(outputs[0]))  # Convert the output to a colorized image
 plt.imshow(predicted_mask)
 plt.title("Predicted Mask")
