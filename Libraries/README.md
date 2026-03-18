@@ -31,8 +31,8 @@ session = ort.InferenceSession("Path/to/onnx/file", providers=['CPUExecutionProv
 input_name = session.get_inputs()[0].name
 output_name = session.get_outputs()[0].name
 
-print(f {output_"Input name: {input_name}")
-print(f"Output name:name}")
+print(f"Input name: {input_name}")
+print(f"Output name: {output_name}")
 ```
 
 
