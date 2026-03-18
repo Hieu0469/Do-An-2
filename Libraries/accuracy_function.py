@@ -32,7 +32,7 @@ def iou_function(pred, target, num_classes):
         union = (pred_cls | target_cls).sum().item()
         iou = intersection / union if union > 0 else 0.0
         ious.append(iou)
-    return ious
+    return sum(ious) / len(ious) if ious else 0.0
 
 def f1_score_function(pred, target, num_classes):
     # pred: (H, W) - predicted class indices
@@ -53,7 +53,7 @@ def f1_score_function(pred, target, num_classes):
         recall = tp / (tp + fn) if (tp + fn) > 0 else 0.0
         f1_score = 2 * precision * recall / (precision + recall) if (precision + recall) > 0 else 0.0
         f1_scores.append(f1_score)
-    return f1_scores
+    return sum(f1_scores) / len(f1_scores) if f1_scores else 0.0
 
 def dice_coefficient_function(pred, target, num_classes):
     # pred: (H, W) - predicted class indices
@@ -70,4 +70,4 @@ def dice_coefficient_function(pred, target, num_classes):
         intersection = (pred_cls & target_cls).sum().item()
         dice_coefficient = 2 * intersection / (pred_cls.sum().item() + target_cls.sum().item()) if (pred_cls.sum().item() + target_cls.sum().item()) > 0 else 0.0
         dice_coefficients.append(dice_coefficient)
-    return dice_coefficients
+    return sum(dice_coefficients) / len(dice_coefficients) if dice_coefficients else 0.0
