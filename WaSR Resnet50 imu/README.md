@@ -8,7 +8,7 @@ Vào [Colab Notebook](https://colab.research.google.com/drive/1-kwH78pF_8KEUvEf1
 |:--- | :--- | :--- | :--- | :--- | :--- | :---|
 |Original | 77.77% | 30.34% | 22.77% | 267.27 MB | 0.93s |  [Download](https://drive.google.com/file/d/13KWItsrZWVg4UZSvz97oc5KenccPZ1ac/view?usp=drive_link)|  
 |Pruned  | 77.66% | 35.31% | 25.79% | 221.7 MB| 0.81s |[Download](https://drive.google.com/file/d/1ZuBp6mSqtF7X6mfCDIafCfvDKHis03rl/view?usp=drive_link)|
-|Quantized   | 79.15% | 32.57% | 24.44% | 32.05 MB | 0.07s | [Download](https://drive.google.com/file/d/13Fb59HPx5y7g3iMdelLIUntY3daaf3Zv/view?usp=drive_link)|
+|Quantized   | 81.64% | 41.74% | 31.67% | 54.56 MB | 0.07s | [Download](https://drive.google.com/file/d/13Fb59HPx5y7g3iMdelLIUntY3daaf3Zv/view?usp=drive_link)|
 
 <img width="1333" height="459" alt="image" src="https://github.com/user-attachments/assets/ae87ac03-260c-45ef-899e-f31d9465a01c" />
 
