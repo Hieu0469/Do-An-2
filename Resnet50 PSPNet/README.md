@@ -1,6 +1,6 @@
 # ResNet50 PSPNet
 
-Vào [Kaggle Notebook](https://www.kaggle.com/code/hieu0469/pruned-quantized-resnet50-unet-cityscapes-2) để xem chi tiết hơn.
+Vào [Kaggle Notebook](https://www.kaggle.com/code/hieu0469/pruned-quantized-resnet50-pspnet-cityscapes) để xem chi tiết hơn.
 
 ## Kết quả test sau prune 90% và quantize về int8:
 
