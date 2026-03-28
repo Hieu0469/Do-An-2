@@ -12,7 +12,7 @@ Các mô hình được so sánh bao gồm:
 - eWaSR ResNet18 imu
 
 ## Kết quả
-<img width="1516" height="222" alt="image" src="https://github.com/user-attachments/assets/30f5fa1b-ae0c-47de-90a2-44b760389560" />
+<img width="1518" height="323" alt="image" src="https://github.com/user-attachments/assets/01364341-8f67-42bf-a110-7ccb9b2488c7" />
 
 Các thông tin khác:
 - Framework: Pytorch
