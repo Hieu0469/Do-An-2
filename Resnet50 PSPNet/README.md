@@ -10,6 +10,7 @@ Vào [Kaggle Notebook](https://www.kaggle.com/code/hieu0469/pruned-quantized-res
 |Pruned  | 80.91% | 32.56% | 25.44% | 23.5 MB| 0.32s |[Download](https://drive.google.com/file/d/1BHJIPpW6FrKLtdqB5xMX0qjHWhYR9a8h/view?usp=sharing)|
 |Quantized   | 80.72% | 32.03% | 25.07% | 5.92 MB | 0.06s | [Download](https://drive.google.com/file/d/1lH5PuU0-fTIgYYjBRRFlfrbH4tDrknDv/view?usp=sharing)|
 
+Note: input size: 192x192
 
 <img width="926" height="670" alt="image" src="https://github.com/user-attachments/assets/fe005c64-eaec-4701-aeb3-a024dc26d849" />
 
