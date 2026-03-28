@@ -6,8 +6,8 @@ Vào [Colab Notebook](https://colab.research.google.com/drive/1rI2kuru3nSMKPrwfM
 
 | | Accuracy | Dice | IoU | Size | CPU run time | |
 |:--- | :--- | :--- | :--- | :--- | :--- | :---|
-|Original | 76.68% | 29.78% | 22.10% | 241.38 MB | 2.53s |  [Download](https://drive.google.com/file/d/1Mgl_-DFvXnvpFuaV1NWqgIye7n18SAqf/view?usp=drive_link)|  
-|Pruned  | 76.98% | 32.57% | 24.44% | 128.62 MB| 0.22s |[Download](https://drive.google.com/file/d/1kn3e6TTpOz2zbQvxQv7oRvWWvfjz309i/view?usp=drive_link)|
+|Original | 76.68% | 29.78% | 22.10% | 241.38 MB | 0.13s |  [Download](https://drive.google.com/file/d/1Mgl_-DFvXnvpFuaV1NWqgIye7n18SAqf/view?usp=drive_link)|  
+|Pruned  | 76.98% | 32.57% | 24.44% | 128.62 MB| 0.09s |[Download](https://drive.google.com/file/d/1kn3e6TTpOz2zbQvxQv7oRvWWvfjz309i/view?usp=drive_link)|
 |Quantized   | 79.15% | 32.57% | 24.44% | 32.05 MB | 0.07s | [Download](https://drive.google.com/file/d/1ta7CyhZFCxwKltAE6PskdQr2os4inqKU/view?usp=sharing)|
 
 
